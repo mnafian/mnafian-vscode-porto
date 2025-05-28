@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://nafianwildana.com/sitemap.xml
+
+# Disallow crawling of API routes
+User-agent: *
+Disallow: /api/
+
+# Allow crawling of important pages
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /projects
+Allow: /contact
+Allow: /experience
+Allow: /skills
+
+# Crawl delay (optional)
+Crawl-delay: 1
